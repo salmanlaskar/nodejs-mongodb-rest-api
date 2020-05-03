@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-mongodb-rest-api",
+  "version": "1.0.0",
+  "description": "NodeJs MongoDB\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[S\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[CREST API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "Salman Laskar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.11"
+  }
+}
