@@ -6,7 +6,7 @@ var express = require('express'),
   Booking =require('./models/booking_model'),
   bodyParser = require('body-parser');
 //mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/Car',{ useNewUrlParser: true ,useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI||'mongodb://localhost/Car',{ useNewUrlParser: true ,useUnifiedTopology: true });
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 var routes = require('./routes/carRoutes');
